@@ -7,3 +7,6 @@ The pytest-bq equivalent is really just two fixture factories (in conftest.py) t
 Resources:
 - pytest-bq repo and also the ones that are similar (noted in that repo's README - pytest-postgresql for example)
 - pytest with eric blog / articles is useful
+
+
+Run tests: `pytest  --custom_plugin_option_1=111 --custom_plugin_option_2=222 -vvs --strict-markers`
